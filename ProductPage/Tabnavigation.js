@@ -79,7 +79,4 @@ export const Tabnavigation = () => {
   
   
   
-  const styles = StyleSheet.create({
-    headerTitleStyles : {
-    }
-  })
+  
