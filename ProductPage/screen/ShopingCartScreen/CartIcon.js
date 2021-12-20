@@ -17,7 +17,7 @@ const UserenterherName = ({navigation}) => {
       <TouchableOpacity onPress={() => navigation.navigate('Shopping')}>
        <View style={styles.backgroundstyle}>
          <View>
-          <Text>0</Text>
+          <Text>{ItemAdded.quntity === 0}</Text>
           </View>
           <Icon name= 'ios-cart' size={30}/>
           </View>
